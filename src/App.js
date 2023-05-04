@@ -16,6 +16,8 @@ function App(props) {
       reviews={item.reviews}
       headline={item.headline}
       price={item.price}
+      openSpots={item.openSpots}
+      location={item.location}
     />
     )
   })
