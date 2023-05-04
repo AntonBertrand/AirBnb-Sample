@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:  0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  height: 5rem;
+  display: flex;
+  padding: 1rem;
+  box-shadow: 0px 3px 7.5px rgb(180, 180, 180);
+}
+
+.nav--logo {
+  max-width: 10rem;
+}
+
+section {
+  padding: 4rem;
+}
+
+.hero--section {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--img { 
+  max-width: 100%;
+  align-self: center;
+}
+
+.hero--header {
+  margin-top: 3rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.hero--text {
+  margin-top: 0;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: rgb(247, 247, 247);
+}
+
+.card--img {
+  width: 100%;
+  height: 350px;
+  border-radius: 0.6rem;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  margin: 0.2rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating i {
+  color: rgb(179, 12, 12);
+}
+
+.rating span {
+  color: rgb(112, 112, 112);
+}
+
+.cards {
+  display: flex;
+  background: red;
+  justify-self: center;
+
+}
+
+.App {
+  display: grid;
+}
